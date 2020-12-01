@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day:1-1": "cd day:1-1 && node index.js",
+    "day:1-2": "cd day:1-2 && node index.js"
+  },
+  "author": "John Hellbom",
+  "license": "ISC"
+}
