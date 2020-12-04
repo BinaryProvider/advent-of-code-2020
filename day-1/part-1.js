@@ -6,8 +6,8 @@ const findExpenseSum = (input, targetSum) => {
   let indexes = {};
 
   for (let i = 0; i < input.length; i++) {
-    let thisNum = input[i];
-    indexes[thisNum] = i;
+    let index = input[i];
+    indexes[index] = i;
   }
 
   for (var i = 0; i < input.length; i++) {
