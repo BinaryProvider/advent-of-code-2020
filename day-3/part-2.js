@@ -26,18 +26,18 @@ function countTreesEncountered(stepsRight, stepsDown) {
 }
 
 const result = {
-  "[Right 1, Down 1]": countTreesEncountered(1, 1),
-  "[Right 3, Down 1]": countTreesEncountered(3, 1),
-  "[Right 5, Down 1]": countTreesEncountered(5, 1),
-  "[Right 7, Down 1]": countTreesEncountered(7, 1),
-  "[Right 1, Down 2]": countTreesEncountered(1, 2),
+  "Right 1, Down 1": countTreesEncountered(1, 1),
+  "Right 3, Down 1": countTreesEncountered(3, 1),
+  "Right 5, Down 1": countTreesEncountered(5, 1),
+  "Right 7, Down 1": countTreesEncountered(7, 1),
+  "Right 1, Down 2": countTreesEncountered(1, 2),
 }
 
 let totalNumberOfTrees = 1;
 
 Object.keys(result).forEach(input => {
   const treesEncountered = result[input];
-  console.log(`Number of trees encountered ${input}: ${treesEncountered}`);
+  console.log(`Number of trees encountered [${input}]: ${treesEncountered}`);
   totalNumberOfTrees *= treesEncountered;
 });
 
