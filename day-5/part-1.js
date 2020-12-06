@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const boardingPasses = fs.readFileSync('input.txt', { encoding: 'utf8' }).split('\n');;
+const boardingPasses = fs.readFileSync('input.txt', { encoding: 'utf8' }).split('\n');
 const numRows = 128;
 const numCols = 8;
 
