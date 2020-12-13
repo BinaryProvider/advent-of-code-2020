@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --ext js,txt --exec 'npm run day:11-2'",
+    "dev": "nodemon --ext js,txt --exec 'npm run day:12-2'",
     "day:1-1": "cd day-1 && node part-1.js",
     "day:1-2": "cd day-1 && node part-2.js",
     "day:2-1": "cd day-2 && node part-1.js",
@@ -26,7 +26,9 @@
     "day:10-1": "cd day-10 && node part-1.js",
     "day:10-2": "cd day-10 && node part-2.js",
     "day:11-1": "cd day-11 && node part-1.js",
-    "day:11-2": "cd day-11 && node part-2.js"
+    "day:11-2": "cd day-11 && node part-2.js",
+    "day:12-1": "cd day-12 && node part-1.js",
+    "day:12-2": "cd day-12 && node part-2.js"
   },
   "author": "John Hellbom",
   "license": "ISC",
